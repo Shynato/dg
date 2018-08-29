@@ -1,0 +1,7 @@
+/* #enigme{} */
+.dialogue{
+    border: ridge 20px grey;
+    background: #808080d8;
+    font-size: 1.75rem;
+    font-family: "typewriter";
+}
