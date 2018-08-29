@@ -70,7 +70,7 @@ body{
                 font-size: 3rem;
         }
         .baseline{
-                 font-size: 1.5rem; 
+                 font-size: 1.1rem; 
         }
       }
 @media screen and (min-width: 768px) {
@@ -78,7 +78,7 @@ body{
                 font-size: 4rem;
         }
         .baseline{
-                font-size: 2rem;
+                font-size: 1.2rem;
         }
       }
 @media screen and (min-width: 992px) {
@@ -86,7 +86,7 @@ body{
                 font-size: 5rem;
         }
         .baseline{
-                font-size: 2.5rem;
+                font-size: 1.3rem;
         }
       }
 @media screen and (min-width: 1200px) {
@@ -94,7 +94,7 @@ body{
                 font-size: 6rem;
         }
         .baseline{
-                font-size: 3rem;
+                font-size: 1.5rem;
         }
 }
 
