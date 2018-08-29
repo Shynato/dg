@@ -1,0 +1,163 @@
+@font-face {
+	font-family: "Typewriter";
+	src: url('police/veteran_typewriter.ttf');
+}
+@font-face{
+        font-family: "Lobster";
+        src: url('police/lobster.otf');
+}
+html{
+        margin: 0;
+        padding: 0;
+        min-height: 100.1vh;
+}
+body{
+        background: url('img/desk_02.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+}
+.title{
+        font-family: "Lobster", Arial, Helvetica, sans-serif;
+        color: #d8c322;
+        font-size: 2rem;
+        /* text-shadow: 5px -1px 10px black; */
+}
+.baseline{
+        font-family: "Typewriter", Arial, Helvetica, sans-serif;
+        /* color: #ffe100; */width: fit-content;
+        color: #000;
+        background-color: #fff;
+        /* d8c322 */
+        font-size: 1rem;
+}
+.btn-menu{
+        background: url('icons/menu_02.svg');
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 50px;
+        /* padding: 5px; */
+        
+}
+.embed-responsive{    box-shadow: 1px 1px 8px 5px #0000007d;}
+.nav-item{
+        min-width:120px
+        ;
+}
+.nav-link{
+        /* color: #fff; */
+        font-weight: bold;
+}
+
+.social-link{
+        transform: rotate(0deg);
+        filter: sepia(1);
+        
+}
+.social-link:hover{
+        transition: transform 1s,filter 1s;
+        filter: sepia(0);
+        transform: rotate(360deg);
+}
+.fab {  
+        font-size: 1rem;
+}
+.fit-content{
+        width:fit-content ;
+}
+@media screen and (min-width: 576px) {
+        .title {
+                font-size: 3rem;
+        }
+        .baseline{
+                 font-size: 1.5rem; 
+        }
+      }
+@media screen and (min-width: 768px) {
+        .title {
+                font-size: 4rem;
+        }
+        .baseline{
+                font-size: 2rem;
+        }
+      }
+@media screen and (min-width: 992px) {
+        .title {
+                font-size: 5rem;
+        }
+        .baseline{
+                font-size: 2.5rem;
+        }
+      }
+@media screen and (min-width: 1200px) {
+        .title {
+                font-size: 6rem;
+        }
+        .baseline{
+                font-size: 3rem;
+        }
+}
+
+
+/* ************for Dev Only ***********/
+
+.title {
+        text-decoration: none;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+}
+      
+.title {
+        letter-spacing: normal;
+        color: white;
+        -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+        -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+        animation: neon1 2s ease-in-out infinite alternate;
+}
+      
+.title:hovr {
+        color: #ffec40;
+        -webkit-animation: none;
+        -moz-animation: none;
+        animation: none;
+}
+@-webkit-keyframes neon1 {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff23f, 0 0 40px #fff23f, 0 0 70px #fff23f;
+        }
+        to {
+          text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff23f;
+        }
+}
+/*glow*/
+
+@keyframes neon1 {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff23f, 0 0 40px #fff23f, 0 0 70px #fff23f ;
+        }
+        to {
+          text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff23f;
+        }
+      }
+
+
+.btn-custom{
+        background: #d8ae52;
+        color: #000;
+        font-family: "Typewriter";
+         /* border-radius: 15px;  */
+         font-weight: 300;
+        /* box-shadow: inset 0px 0px 17px 6px #24222242; */
+        transition: color 0.5s ease-in-out, padding-left 0.5s ease-in-out;
+}
+
+
+nav .btn-custom:hover{
+        color:#fff;
+        position: relative;
+        padding-left: 20px !important ;
+}
+.btn-custom:hover{
+        color: #fff;
+}
