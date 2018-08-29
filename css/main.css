@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "Typewriter";
-	src: url('police/veteran_typewriter.ttf');
+	src: url('../police/veteran_typewriter.ttf');
 }
 @font-face{
         font-family: "Lobster";
-        src: url('police/lobster.otf');
+        src: url('../police/lobster.otf');
 }
 html{
         margin: 0;
@@ -12,7 +12,7 @@ html{
         min-height: 100.1vh;
 }
 body{
-        background: url('img/desk_02.jpg');
+        background: url('../img/desk_02.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         
@@ -32,7 +32,7 @@ body{
         font-size: 1rem;
 }
 .btn-menu{
-        background: url('icons/menu_02.svg');
+        background: url('../icons/menu_02.svg');
         background-repeat: no-repeat;
         width: 55px;
         height: 50px;
